@@ -18,6 +18,6 @@ def brackets(s):
             need = '{'
         elif i == '>':
             need = '<'
-        if stack.pop() != need:
-            return True
+        if stack[-1] == need:
+            stack.pop(-1)
     return not stack
