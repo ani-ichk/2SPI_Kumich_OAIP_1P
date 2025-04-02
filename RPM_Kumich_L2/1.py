@@ -56,10 +56,11 @@ class Inventory:
 
 a = Inventory({'stone': 5, 'wood': 10}, 40, 5)
 print(a)
-print(a.__len__())
-print(a.__getitem__('stone'))
-print(a.__setitem__('wood', 1))
-print(a.__setitem__('dimond', 2))
-print(a.__delitem__('stone'))
-print(a.__contains__('stone'))
+print(len(a))
+print(a['stone'])
+a['wood'] = 1
+a['dimond'] = 2
+print(a)
+del a['stone']
+print('stone' in a)
 print(a + {'stone': 5, 'wood': 1})
