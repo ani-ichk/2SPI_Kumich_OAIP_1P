@@ -1,0 +1,17 @@
+[
+  {
+    "number": 1,
+    "name": "abc",
+    "cost": 10
+  },
+  {
+    "number": 2,
+    "name": "xyz",
+    "cost": 20
+  },
+  {
+    "number": 3,
+    "name": "cat",
+    "cost": 30
+  }
+]
