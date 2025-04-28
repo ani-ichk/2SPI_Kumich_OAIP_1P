@@ -1,0 +1,37 @@
+{
+  "data1":
+  {
+    "age": 20,
+    "phone": "+73439215818",
+    "name": "Anna",
+    "city": "Vienna"
+  },
+  "data2":
+  {
+    "age": 21,
+    "phone": "+79030103791",
+    "name": "Bob",
+    "city": "New York"
+  },
+  "data3":
+  {
+    "age": 20,
+    "phone": "+74952941218",
+    "name": "Olga",
+    "city": "Moscow"
+  },
+  "data4":
+  {
+    "age": 30,
+    "phone": "+74959713890",
+    "name": "Max",
+    "city": "Moscow"
+  },
+  "data5":
+  {
+    "age": 36,
+    "phone": "+72853948738",
+    "name": "Hao",
+    "city": "Beijing"
+  }
+}
