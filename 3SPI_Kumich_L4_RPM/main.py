@@ -71,7 +71,9 @@ def main():
             terminal.execute(amount)  # выполняем оплату
         else:
             print('Неверный ввод!')
+            break
 
 
 if __name__ == '__main__':
+
     main()
